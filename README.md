@@ -19,7 +19,7 @@ Arvyo does not pattern-match light curves. It **rebuilds each of the four hypoth
 
 ## 40-second demo
 
-<p align="center"><a href="docs/media/demo.mp4"><img src="docs/media/demo.gif" width="640" alt="Preview of the arvyo demo video: the brand slam, four hypotheses fitted to one light curve, and the period search"></a><br><sub>▶ Click for the full 40-second video with sound. Every image in it is a real screenshot or run from this repo.</sub></p>
+<p align="center"><a href="https://youtu.be/nxsViUQj-1k"><img src="docs/media/demo.gif" width="640" alt="Preview of the arvyo demo video: the brand slam, four hypotheses fitted to one light curve, and the period search"></a><br><sub>▶ Watch the 40-second demo on [YouTube](https://youtu.be/nxsViUQj-1k) (with sound), or grab the [mp4](docs/media/demo.mp4). Every image in it is a real screenshot or run from this repo.</sub></p>
 
 ## The eleven repositories
 
