@@ -17,6 +17,10 @@ Arvyo does not pattern-match light curves. It **rebuilds each of the four hypoth
 |:---:|:---:|:---:|:---:|
 | period found on a real TESS sample (TIC 138644215) | against a detection gate of 7.0 | error against the sample's recorded period | standalone repos, one frozen data contract |
 
+## 40-second demo
+
+<p align="center"><a href="docs/media/demo.mp4"><img src="docs/media/demo.gif" width="640" alt="Preview of the arvyo demo video: the brand slam, four hypotheses fitted to one light curve, and the period search"></a><br><sub>▶ Click for the full 40-second video with sound. Every image in it is a real screenshot or run from this repo.</sub></p>
+
 ## The eleven repositories
 
 ![The eleven Arvyo tools grouped into a dataset half and an analysis half around arvyo-pipeline](docs/images/toolchain.svg)
