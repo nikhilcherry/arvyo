@@ -32,6 +32,10 @@ That's analysis-by-synthesis, and it is why the answer comes with a reason attac
 
 ## The eleven repositories
 
+![The eleven Arvyo tools grouped into a dataset half and an analysis half around arvyo-pipeline](docs/images/toolchain.svg)
+
+<sub>Arrows show the typical order of use, not imports: no tool imports another's internals.</sub>
+
 Every tool below is standalone — its own repository, its own README, its own tests, its own CLI. **None of them imports another's internals.** They speak to each other through frozen file formats and parsed stdout JSON, which is the only reason eleven moving parts can be recombined without a rewrite.
 
 ### The dataset half

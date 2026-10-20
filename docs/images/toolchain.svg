@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 330" font-family="Inter, system-ui, sans-serif">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#3C6193"/></marker>
+  <style>.bg{fill:#f3f6fb}.box{fill:#fff;stroke:#c5d3e6;stroke-width:1.5}.hub{fill:#1d2f4a}.t{font-size:14px;font-weight:600;fill:#1d2f4a}.s{font-size:11.5px;fill:#566a85}.w{fill:#fff}.ws{fill:#c5d3e6}.l{stroke:#3C6193;stroke-width:2;fill:none}.h{font-size:12px;font-weight:700;fill:#3C6193;letter-spacing:.08em}</style></defs>
+  <rect class="bg" width="920" height="330" rx="14"/>
+  <text x="30" y="36" class="t" style="font-size:17px">Arvyo: eleven standalone tools, one frozen data contract</text>
+  <text x="30" y="72" class="h">DATASET</text><text x="470" y="72" class="h">ANALYSIS</text>
+
+  <rect class="box" x="30" y="86" width="120" height="58" rx="9"/><text x="90" y="112" text-anchor="middle" class="t">fetchr</text><text x="90" y="130" text-anchor="middle" class="s">Kaggle / MAST sync</text>
+  <rect class="box" x="170" y="86" width="120" height="58" rx="9"/><text x="230" y="112" text-anchor="middle" class="t">arvyo-data</text><text x="230" y="130" text-anchor="middle" class="s">.npz corpus</text>
+  <rect class="box" x="310" y="86" width="120" height="58" rx="9"/><text x="370" y="112" text-anchor="middle" class="t">injectr</text><text x="370" y="130" text-anchor="middle" class="s">synthetic signals</text>
+  <rect class="box" x="170" y="170" width="120" height="58" rx="9"/><text x="230" y="196" text-anchor="middle" class="t">peekr</text><text x="230" y="214" text-anchor="middle" class="s">catch bad data early</text>
+
+  <rect class="hub" x="470" y="86" width="140" height="142" rx="11"/><text x="540" y="116" text-anchor="middle" class="t w">arvyo-pipeline</text><text x="540" y="138" text-anchor="middle" class="s ws">contract validation</text><text x="540" y="156" text-anchor="middle" class="s ws">views, CNN encoder</text><text x="540" y="174" text-anchor="middle" class="s ws">vetting, orchestration</text>
+  <rect class="box" x="650" y="86" width="110" height="58" rx="9"/><text x="705" y="112" text-anchor="middle" class="t">foldr</text><text x="705" y="130" text-anchor="middle" class="s">period search</text>
+  <rect class="box" x="650" y="170" width="110" height="58" rx="9"/><text x="705" y="196" text-anchor="middle" class="t">fitr</text><text x="705" y="214" text-anchor="middle" class="s">4 forward models</text>
+  <rect class="box" x="780" y="86" width="110" height="58" rx="9"/><text x="835" y="112" text-anchor="middle" class="t">localizr</text><text x="835" y="130" text-anchor="middle" class="s">where it dimmed</text>
+  <rect class="box" x="780" y="170" width="110" height="58" rx="9"/><text x="835" y="196" text-anchor="middle" class="t">arvyo-wiz</text><text x="835" y="214" text-anchor="middle" class="s">3D simulator</text>
+
+  <path class="l" d="M150 115 H170" marker-end="url(#a)"/><path class="l" d="M290 115 H310" marker-end="url(#a)"/><path class="l" d="M430 115 H470" marker-end="url(#a)"/>
+  <path class="l" d="M290 199 H470" marker-end="url(#a)"/>
+  <path class="l" d="M610 115 H650" marker-end="url(#a)"/><path class="l" d="M610 199 H650" marker-end="url(#a)"/><path class="l" d="M760 115 H780" marker-end="url(#a)"/>
+
+  <rect class="box" x="30" y="262" width="400" height="46" rx="9"/><text x="230" y="282" text-anchor="middle" class="t">batchr + trackr</text><text x="230" y="298" text-anchor="middle" class="s">cached parallel runs, metric logging (optional)</text>
+  <text x="470" y="290" class="s">None of the tools imports another's internals.</text><text x="470" y="306" class="s">They talk through frozen file formats and parsed stdout JSON.</text>
+</svg>
